@@ -1,0 +1,23 @@
+{
+  "name": "dvp-licenseserver",
+  "version": "1.0.0",
+  "description": "License service for Facetone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "dvp-common-lite": "^1.0.1",
+    "dvp-dbmodels": "^3.3.16",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "restify": "^8.3.3",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.0",
+    "restify-jwt": "^0.4.0",
+    "restify-jwt-community": "^1.0.13"
+  }
+}
